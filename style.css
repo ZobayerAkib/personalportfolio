@@ -202,29 +202,48 @@ h1{
     border-image-slice: 1;
 }
 .dream-area{
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 .contactbox{
-    margin-top: 140%;
+    margin-top: 138%;
     margin-bottom: 20%;
+    background-image: url("images/Group_33094_1.png");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    border: solid cornsilk;
     
+}
+
+.chatbox{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.inquiry{
+    width: 20%;
+    float: left;
+    margin-left: 25%;
+    padding-left: 10px;
+    padding-top: 40%;
+    height: 2px;
+    
+
 }
 .link{
     text-decoration: none;
     background-image: linear-gradient(tomato,lightsalmon);
-    
-    border-radius: 5px;
+    width: 20%;
+    border-radius: 10px;
     color: papayawhip;
     font-weight: 700;
-    
+   margin-bottom: 10%;
+   margin-left: 100%;
+   padding-right: 30%;
+   padding-left: 20%;
     text-align: center;
-}
-.chatbox{
+    background-position: right;
     
-    height: 600px;
-    text-align: end;
-    background-image: url("images/Group_33094_1.png");
-    background-size: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
