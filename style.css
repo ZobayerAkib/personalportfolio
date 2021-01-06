@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    
     font-family: 'Roboto', sans-serif;
 }
 ul{
@@ -20,7 +21,7 @@ a{
     padding: 12px;
     color: rgb(43, 39, 39);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     width: 25%; 
 }
 .wd{
@@ -32,6 +33,7 @@ a{
     float: left;
     margin-left: 10%;
     padding-left: 5%;
+    margin-bottom: 10%;
 }
 .half-width img{
     width: 60%;
@@ -41,13 +43,15 @@ a{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-bottom: 10%;
 }
 .name{
     color: rgb(211, 121, 88) ;
 }
 .p1{
 margin-top: 60px;
-margin-right: 10px;    
+margin-right: 10px;  
+font-size: 20px;  
 }
 .sec1{
     margin-top: 60px;
@@ -72,6 +76,7 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
     margin-top: 60px;
+    margin-bottom: 20%;
 }
 .half-width12 img{
     width: 75%;
@@ -83,32 +88,23 @@ h1{
 .p{
     color: firebrick;
 }
-.sec2{
-    width: 35%;
-    float: left;
-   
-    margin-left: 15%;
-    padding-left: 5%;
-    padding-right: 10px;
-    padding-bottom: 10%;
-    
-    padding-top: 10%;
-    
-    
-    
-}
+
 
 .cards{
-    width: 40%;
-    height: 33.3%;
-    border: solid;
-    float: left;
+    width:25% ;
+    height: 20%;
     
-    border-radius: 8%;
-    margin-top: 50px;
-    border-image: linear-gradient(180deg,rgb(231, 231, 236),rgb(247, 243, 243));
+    border: 2px solid whitesmoke;
+    margin: 2px ;
+    
+    border-image: linear-gradient(180deg,rgb(231, 229, 228),rgb(245, 245, 242));
     border-image-slice: 1;
-    
+    border-radius: 10%;
+    float: left;
+    margin-right: 55px ;
+    padding-right: 40px;
+    padding-left: 37px;
+   
     
 }
 .image img{
@@ -118,11 +114,12 @@ h1{
 }
 .title{
     text-align: center;
+    color:rgb(25,25,112);
 }
 .des{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin : 15px
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     
@@ -132,49 +129,27 @@ h1{
 .l1{
     color: firebrick;
 }
-.work{
-    text-align: center ;
-    margin-left: 15%;
-    padding-left: 5%;
-    margin-top: 5%;
-    font-weight: bold;
-    
 
-}
     
 
 
 .cards:hover{
-    box-shadow: 2px 2px 10px rgb(167, 164, 164);
-}
-.cards1:hover{
-    box-shadow: 2px 2px 10px rgb(167, 164, 164);
-}
-.cards1{
-    width: 40%;
-    height: 33.3%;
-    border-left: 7px solid;
-    float: left;
-    margin-left:  18%;
-    border-radius: 8%;
-    margin-top: 50px;
-    border-image: linear-gradient(180deg,rgb(231, 231, 236),rgb(247, 243, 243));
-    border-image-slice: 1;
-    
-    
-}
-.cards2{
-    width: 40%;
-    height: 33.3%;
-    border-left: 7px solid;
-    float: left;
-    margin-right:50%;
-    border-radius: 8%;
-    margin-top: 50px;
-    border-image: linear-gradient(180deg,rgb(231, 231, 236),rgb(247, 243, 243));
-    border-image-slice: 1;
-    
-    
+    box-shadow: 2px 2px 10px rgb(161, 157, 157);
 }
 
 
+.pro{
+    width: 38%;
+    font-weight: bold;
+     margin-left: 40%;
+     margin-top: 10%;
+     margin-bottom: 10%;
+     color: rgb(25,25,112);
+}
+
+
+.profile{
+    float: left;
+    margin-left:20px ;
+    padding: 2px;
+}
