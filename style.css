@@ -83,4 +83,98 @@ h1{
 .p{
     color: firebrick;
 }
+.sec2{
+    width: 35%;
+    float: left;
+   
+    margin-left: 15%;
+    padding-left: 5%;
+    padding-right: 10px;
+    padding-bottom: 10%;
+    
+    padding-top: 10%;
+    
+    
+    
+}
+
+.cards{
+    width: 40%;
+    height: 33.3%;
+    border: solid;
+    float: left;
+    
+    border-radius: 8%;
+    margin-top: 50px;
+    border-image: linear-gradient(180deg,rgb(231, 231, 236),rgb(247, 243, 243));
+    border-image-slice: 1;
+    
+    
+}
+.image img{
+    width: 100%;
+
+
+}
+.title{
+    text-align: center;
+}
+.des{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    
+    
+}
+
+.l1{
+    color: firebrick;
+}
+.work{
+    text-align: center ;
+    margin-left: 15%;
+    padding-left: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+    
+
+}
+    
+
+
+.cards:hover{
+    box-shadow: 2px 2px 10px rgb(167, 164, 164);
+}
+.cards1:hover{
+    box-shadow: 2px 2px 10px rgb(167, 164, 164);
+}
+.cards1{
+    width: 40%;
+    height: 33.3%;
+    border-left: 7px solid;
+    float: left;
+    margin-left:  18%;
+    border-radius: 8%;
+    margin-top: 50px;
+    border-image: linear-gradient(180deg,rgb(231, 231, 236),rgb(247, 243, 243));
+    border-image-slice: 1;
+    
+    
+}
+.cards2{
+    width: 40%;
+    height: 33.3%;
+    border-left: 7px solid;
+    float: left;
+    margin-right:50%;
+    border-radius: 8%;
+    margin-top: 50px;
+    border-image: linear-gradient(180deg,rgb(231, 231, 236),rgb(247, 243, 243));
+    border-image-slice: 1;
+    
+    
+}
+
 
