@@ -204,3 +204,27 @@ h1{
 .dream-area{
     margin-bottom: 20%;
 }
+.contactbox{
+    margin-top: 140%;
+    margin-bottom: 20%;
+    
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,lightsalmon);
+    
+    border-radius: 5px;
+    color: papayawhip;
+    font-weight: 700;
+    
+    text-align: center;
+}
+.chatbox{
+    
+    height: 600px;
+    text-align: end;
+    background-image: url("images/Group_33094_1.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
