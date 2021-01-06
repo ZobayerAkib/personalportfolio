@@ -186,7 +186,7 @@ h1{
 }
 .single{
     box-shadow: 10px 10px 40px grey;
-    border-radius: 5px;
+    border-radius: 10px;
     height:70% ;
     background-color: white;
     
@@ -206,7 +206,7 @@ h1{
 }
 .contactbox{
     margin-top: 138%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     background-image: url("images/Group_33094_1.png");
     background-size: 70%;
     background-position: center;
@@ -246,4 +246,33 @@ h1{
     text-align: center;
     background-position: right;
     
+}
+
+.hv:hover{
+    box-shadow: 2px 2px 10px rgb(122, 119, 119);
+}
+.link:hover{
+    box-shadow: 2px 2px 10px rgb(214, 196, 196);
+}
+.link-bt:hover{
+    box-shadow: 2px 2px 10px rgb(107, 103, 103);
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    font-style: oblique;
+    font-weight: bold;
+    color: dimgray;
+    margin-bottom: 2%;
+    
+}
+.link123{
+    text-align: center;
+    margin-left: 37%;
+    font-weight: bold;
+    font-size: 28px;
+}
+.link123:hover{
+    box-shadow: 2px 2px 10px rgb(173, 166, 166);
 }
